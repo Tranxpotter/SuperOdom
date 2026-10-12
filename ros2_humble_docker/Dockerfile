@@ -48,7 +48,7 @@ RUN apt-get install -y python-tk python3-pip
 # Python 3.
 RUN pip3 install --upgrade pip
 RUN pip3 install --no-cache-dir numpy scipy matplotlib ipython opencv-python 
-RUN pip3 install --no-cache-dir pandas visdom scikit-image scikit-learn numba Pillow
+RUN pip3 install --no-cache-dir pandas scikit-image scikit-learn numba Pillow
 RUN pip3 install --no-cache-dir pyyaml pycryptodome bagpy Cython
 
 RUN apt-get -y install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential

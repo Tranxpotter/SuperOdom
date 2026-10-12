@@ -19,8 +19,8 @@ fi
 # Assign the arguments to variables for clarity
 CONTAINER_NAME="$1"
 IMAGE_NAME="$2"
-PROJECT_DIR="/path/to/your/superodom"
-DATASET_DIR="/path/to/your/dataset"
+PROJECT_DIR="/home/abc/Code/super_odom_test/src"
+DATASET_DIR="/home/abc/Code/super_odom_test/data"
 
 # Launch the nvidia-docker container with the provided image name and tag
 docker run --privileged -it \
